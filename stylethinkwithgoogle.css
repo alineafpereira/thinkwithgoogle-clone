@@ -1,0 +1,94 @@
+body {
+    box-sizing: border-box;
+
+}
+   
+.header {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-family: helvetica;
+}
+
+h3, .card-text, .button {
+    font-family: 'Manjari', sans-serif;
+}
+
+.card {
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #a2b2d7;
+    vertical-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button {
+    font-size: 15px;
+    width: 40%;
+    height: 20%;
+    align-items: center;
+}
+
+.card-text {
+    font-size: 40px;
+    display: flex;
+    color: #474742;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.card-text1 {
+    width: 448px;
+    height: 350px;
+
+}
+
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.row1 {
+    margin-top: 20px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: nowrap;
+    flex-grow: 1;
+}
+
+.row2 {
+    display: flex;
+    flex-flow: row;
+    align-items: center; 
+    
+}
+
+.img1 {
+    width: 448px;
+    height: 350px;
+
+}
+
+.img1, .img2 {
+    width: 444px;
+    height: 350px;
+}
